@@ -1,24 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftCase1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5cY-5k-H7W">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KumaBackground" translatesAutoresizingMaskIntoConstraints="NO" id="4Hc-rG-LPo">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rilakkuma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUE-mp-nSo">
+                                        <rect key="frame" x="111.66666666666669" y="180" width="170" height="42"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <color key="textColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yt8-tm-CTe">
+                                        <rect key="frame" x="34.666666666666657" y="523.33333333333337" width="324" height="85.666666666666629"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="進入熊的家">
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
+                                            <color key="baseForegroundColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="ABE-B2-ClG"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4Hc-rG-LPo" firstAttribute="leading" secondItem="ABE-B2-ClG" secondAttribute="leading" id="4Ta-Lm-37H"/>
+                                    <constraint firstItem="4Hc-rG-LPo" firstAttribute="bottom" secondItem="ABE-B2-ClG" secondAttribute="bottom" id="F3e-tg-kVx"/>
+                                    <constraint firstItem="uUE-mp-nSo" firstAttribute="top" secondItem="ABE-B2-ClG" secondAttribute="top" constant="180" id="IrU-AR-8vd"/>
+                                    <constraint firstItem="uUE-mp-nSo" firstAttribute="centerX" secondItem="5cY-5k-H7W" secondAttribute="centerX" id="QSa-AM-UZJ"/>
+                                    <constraint firstItem="4Hc-rG-LPo" firstAttribute="top" secondItem="ABE-B2-ClG" secondAttribute="top" id="Wlb-5M-Aw5"/>
+                                    <constraint firstItem="4Hc-rG-LPo" firstAttribute="trailing" secondItem="ABE-B2-ClG" secondAttribute="trailing" id="XpX-CS-L0N"/>
+                                    <constraint firstItem="yt8-tm-CTe" firstAttribute="centerX" secondItem="5cY-5k-H7W" secondAttribute="centerX" id="iAC-kE-ack"/>
+                                    <constraint firstItem="ABE-B2-ClG" firstAttribute="bottom" secondItem="yt8-tm-CTe" secondAttribute="bottom" constant="150" id="jSk-4H-mnc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92156863209999995" green="0.72156864399999998" blue="0.45098042490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="5cY-5k-H7W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7tV-yy-F8f"/>
+                            <constraint firstItem="5cY-5k-H7W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IaU-4Q-XBD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5cY-5k-H7W" secondAttribute="trailing" id="VXm-r1-LMw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5cY-5k-H7W" secondAttribute="bottom" id="usF-f3-w6i"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginBtn" destination="yt8-tm-CTe" id="5hx-kX-x92"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ufj-Kg-ILX">
+            <objects>
+                <viewController id="fYf-2C-Fyz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="US9-C2-Mp3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DXm-Mg-icj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O7u-8G-ybj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="914" y="-27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="KumaBackground" width="564" height="1002"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
