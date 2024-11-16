@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>小兔體.ttf</string>
+		<string>熊貓字.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
