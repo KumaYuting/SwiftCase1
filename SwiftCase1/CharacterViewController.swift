@@ -18,7 +18,7 @@ class CharacterViewController: UIViewController {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        characterLabel.font = UIFont(name: "ARTianniuB5-Bold", size: 30)
+        characterLabel.font = UIFont(name: "ARTianniuB5-Bold", size: 26)
 
     }
 }
