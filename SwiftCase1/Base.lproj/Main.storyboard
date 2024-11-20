@@ -57,7 +57,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yt8-tm-CTe">
-                                        <rect key="frame" x="43" y="479.33333333333343" width="307.33333333333331" height="85.666666666666686"/>
+                                        <rect key="frame" x="10" y="479.33333333333343" width="373" height="85.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="進入熊的家">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
@@ -72,11 +72,13 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="4Hc-rG-LPo" firstAttribute="leading" secondItem="ABE-B2-ClG" secondAttribute="leading" id="4Ta-Lm-37H"/>
+                                    <constraint firstItem="ABE-B2-ClG" firstAttribute="trailing" secondItem="yt8-tm-CTe" secondAttribute="trailing" constant="10" id="7iC-Cq-1k4"/>
                                     <constraint firstItem="4Hc-rG-LPo" firstAttribute="bottom" secondItem="ABE-B2-ClG" secondAttribute="bottom" id="F3e-tg-kVx"/>
                                     <constraint firstItem="uUE-mp-nSo" firstAttribute="top" secondItem="ABE-B2-ClG" secondAttribute="top" constant="100" id="IrU-AR-8vd"/>
                                     <constraint firstItem="uUE-mp-nSo" firstAttribute="centerX" secondItem="5cY-5k-H7W" secondAttribute="centerX" id="QSa-AM-UZJ"/>
                                     <constraint firstItem="4Hc-rG-LPo" firstAttribute="top" secondItem="ABE-B2-ClG" secondAttribute="top" id="Wlb-5M-Aw5"/>
                                     <constraint firstItem="4Hc-rG-LPo" firstAttribute="trailing" secondItem="ABE-B2-ClG" secondAttribute="trailing" id="XpX-CS-L0N"/>
+                                    <constraint firstItem="yt8-tm-CTe" firstAttribute="leading" secondItem="ABE-B2-ClG" secondAttribute="leading" constant="10" id="dWw-Jk-Ek5"/>
                                     <constraint firstItem="yt8-tm-CTe" firstAttribute="centerX" secondItem="5cY-5k-H7W" secondAttribute="centerX" id="iAC-kE-ack"/>
                                     <constraint firstItem="ABE-B2-ClG" firstAttribute="bottom" secondItem="yt8-tm-CTe" secondAttribute="bottom" constant="150" id="jSk-4H-mnc"/>
                                 </constraints>
@@ -161,7 +163,7 @@
                                                             <fragment content="一天突然出現在小薰家中，擅自住下的布偶熊，真實身份不明。喜歡的食物是鬆餅、糯米糰子、熱蛋糕、蛋包飯、布丁等等，不喜歡太辣的食物。常常躺著滾來滾去， 喜歡黃色的抱枕。">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="20" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="20"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -214,7 +216,7 @@
                                                             <fragment content="與拉拉熊同樣突然出現在小薰家中。喜歡的食物是草莓、蘋果和鬆餅，興趣是玩耍和惡作劇，例如亂塗鴉、擅自拉下拉拉熊的拉鍊、惡搞拉拉熊、不好好收拾玩過的玩具、讓遙控小鴨追逐小黃雞等。">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="20" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="20"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -267,9 +269,9 @@
                                                             <fragment content="小薰家飼養的寵物雞。自從">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="20" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="20"/>
                                                                     <real key="NSKern" value="0.0"/>
-                                                                    <font key="NSOriginalFont" size="18" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSOriginalFont" metaFont="system" size="18"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="16" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                         <tabStops/>
                                                                     </paragraphStyle>
@@ -279,7 +281,7 @@
                                                             <fragment content="拉拉">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="18" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="18"/>
                                                                     <real key="NSKern" value="0.0"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="16" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                         <tabStops/>
@@ -290,9 +292,9 @@
                                                             <fragment content="熊住下，就開始能夠自己出入籠子。可能因為">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="20" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="20"/>
                                                                     <real key="NSKern" value="0.0"/>
-                                                                    <font key="NSOriginalFont" size="18" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSOriginalFont" metaFont="system" size="18"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="16" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                         <tabStops/>
                                                                     </paragraphStyle>
@@ -302,7 +304,7 @@
                                                             <fragment content="拉拉">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="18" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="18"/>
                                                                     <real key="NSKern" value="0.0"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="16" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                         <tabStops/>
@@ -313,9 +315,9 @@
                                                             <fragment content="熊只會白吃白喝又老是把東西弄亂，掃地等的家事小雞都會做，非常細心。">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="20" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="20"/>
                                                                     <real key="NSKern" value="0.0"/>
-                                                                    <font key="NSOriginalFont" size="18" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSOriginalFont" metaFont="system" size="18"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="16" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                         <tabStops/>
                                                                     </paragraphStyle>
@@ -373,7 +375,7 @@
                                                             <fragment content="小白熊在蜂蜜森林發現的新朋友，體型略小於小白熊，愛吃蜂蜜，身上有蜂蜜的體香，屁股也因此沾到一滴熊頭形狀的蜂蜜。茶小熊喜歡吼叫、用四隻腳走路。會在小白熊造訪蜂蜜森林時與她一同玩耍。">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.40000003579999999" green="0.26274511220000002" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <font key="NSFont" size="20" name="DFWaWaTC-W5"/>
+                                                                    <font key="NSFont" metaFont="system" size="20"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -8184,11 +8186,6 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" name="RilakBrownColor"/>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e4z-GY-vPF">
-                                        <rect key="frame" x="90" y="195" width="5" height="5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" name="RilakBodyColor"/>
-                                    </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNI-jm-l6V">
                                         <rect key="frame" x="330" y="195" width="5" height="5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -8376,11 +8373,6 @@
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m69-s9-c6i">
                                         <rect key="frame" x="100" y="195" width="5" height="5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" name="RilakBodyColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O1J-bc-Pge">
-                                        <rect key="frame" x="85" y="195" width="5" height="5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" name="RilakBodyColor"/>
                                     </view>
@@ -10905,7 +10897,7 @@
                                     <constraint firstAttribute="height" constant="300" id="3cP-Je-D2b"/>
                                 </constraints>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="今天又是懶洋洋的一天，只想吃點心，不想出門。" textAlignment="natural" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pXr-ED-fN9">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="今天又是懶洋洋的一天，只想吃點心，不想出門。" textAlignment="natural" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pXr-ED-fN9">
                                 <rect key="frame" x="25" y="483" width="343" height="300"/>
                                 <color key="backgroundColor" red="0.74509805439999999" green="0.52941179279999995" blue="0.19215688110000001" alpha="0.19257036423841059" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -11005,7 +10997,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ChB-QS-zT7"/>
+        <segue reference="TCR-n9-4T1"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Chairoikoguma1" width="600" height="600"/>
@@ -11017,7 +11009,7 @@
         <image name="Rilakkuma3" width="1170" height="1170"/>
         <image name="creditcard" catalog="system" width="128" height="88"/>
         <namedColor name="RilakBodyColor">
-            <color red="0.74509805439999999" green="0.52941179279999995" blue="0.19215688110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.74500000476837158" green="0.52899998426437378" blue="0.19200000166893005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="RilakBrownColor">
             <color red="0.29399999976158142" green="0.22699999809265137" blue="0.18000000715255737" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
